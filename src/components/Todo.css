@@ -1,0 +1,140 @@
+.text-center {
+	text-align: center;
+	font-size: 45px;
+}
+
+.todo-container {
+	background-color: white;
+	width: 800px;
+	height: 80vh;
+	border-radius: 20px;
+	padding: 45px;
+	margin: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.input-container {
+	width: 100%;
+	display: flex;
+	gap: 20px;
+}
+
+.input-field{
+	width: 80%;
+	padding: 18px;
+	font-size: 20px;
+	background-color: aliceblue;
+	border-radius: 20px;
+	border:2px solid rgb(192, 180, 180) ;
+	outline: none;
+}
+
+.submit-btn{
+	padding: 18px;
+	width: 20%;
+	background-color: red;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.submit-btn:hover{
+	background-color: black;
+	color: white;
+}
+
+.list-container{
+	padding: 30px;
+	height: 100vh;
+	width: 100%;
+	border-radius: 20px;
+	color: black;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	overflow-y:scroll ;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+}
+
+.list-container ul li {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+	font-size: 25px;
+	gap: 20px;
+}
+
+.list-container ul li input[type="checkbox"]{
+	height: 25x;
+	width: 25px;
+	border: 2px solid red;
+
+}
+
+.list-container ul {
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	flex-direction: column;
+	width: 100%;
+	gap:20px
+}
+
+.checkbox-field{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.delete-btn{
+	font-size: 15px;
+	background-color: rgb(192, 20, 20);
+	color: white;
+	border: none;
+	padding: 8px 12px;
+	cursor: pointer;
+	border-radius: 15px;
+	
+}
+
+.delete-btn:hover{
+	background-color: black;
+	color: white;
+}
+
+.clear-btn{
+	width: 100%;
+}
+
+.clear-all-btn{
+	background-color: black;
+	color: white;
+	padding: 15px 30px;
+	border: none;
+	font-size: 15px;
+	font-weight: bold;
+	width: 100%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.clear-all-btn:hover{
+	background-color: red;
+	color: white;
+}
+
+.list-container h2{
+	text-align: center;
+	color: red;
+}
